@@ -1,0 +1,24 @@
+.ubicacionClub {
+  height: auto;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+
+.direccionClub {
+  height: 300px;
+  width: 90%;
+  padding: 50px 150px;
+}
+
+.iframeClub {
+  height: 500px;
+  width: 500px;
+}
+/*# sourceMappingURL=contacto.css.map */

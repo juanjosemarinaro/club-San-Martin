@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.haciendoInstalaciones {
+  font-size: 40px;
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: cornsilk;
+}
+
+.item {
+  border: solid black 2px;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+.item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.contenedorInstalaciones {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contenedorInstalaciones .itema {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-image: url(../multimedia/buffetinstalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemb {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-image: url(../multimedia/gimnasioinstalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemc {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-image: url(../multimedia/salonfitnessinstalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemg {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  background-image: url(../multimedia/Hàbit_Saludable.jpg);
+  /* nose por que no me carga la imagen */
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .iteme {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  background-image: url(../multimedia/vestuariosinstalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemf {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  background-image: url(../multimedia/indoorinstalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemd {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  background-image: url(../multimedia/choiinstalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=club.css.map */

@@ -74,7 +74,6 @@
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   background-image: url(../multimedia/Hàbit_Saludable.jpg);
-  /* nose por que no me carga la imagen */
   background-size: cover;
   background-position: center;
 }

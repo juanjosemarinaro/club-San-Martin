@@ -7,8 +7,8 @@
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(blue), color-stop(royalblue), to(skyblue));
-  background-image: linear-gradient(blue, royalblue, skyblue);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(skyblue), color-stop(royalblue), to(blue));
+  background-image: linear-gradient(skyblue, royalblue, blue);
 }
 
 /* --------------------------------------------------------------------------empieza el index------------------------------------------------------------------------------ */
@@ -45,6 +45,27 @@ h1 {
   width: 400px;
   height: 400px;
   border-radius: 20px;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+}
+
+.navbar {
+  height: 100px;
+}
+
+ul li a {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: white;
+  border-radius: 5px;
 }
 
 .Carrousel {
@@ -84,29 +105,9 @@ h1 {
   height: 100%;
 }
 
-/* ---------------------------------------------error------------------------------------------------------------------------------------ */
-.container {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 30px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container__img {
-  width: 600px;
-}
-
+/* --------------------------------novedades------------------------------------------------------------------------------------------------------------------------------------ */
+/* --------------------------------------------------------------------------termina index---------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------historia----------------------------------------------------------------------------------- */
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,7 +242,6 @@ h1 {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   background-image: url(../multimedia/Hàbit_Saludable.jpg);
-  /* nose por que no me carga la imagen */
   background-size: cover;
   background-position: center;
 }
@@ -320,6 +320,85 @@ h1 {
   border-radius: 10px;
 }
 
+.principal {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.principal__1 {
+  border: solid black 2px;
+  max-height: 600px;
+  min-width: 600px;
+}
+
+.principal__imagen {
+  width: 0 auto;
+  height: 400px;
+  width: 400px;
+}
+
+.principal1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.principal2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.principal3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.principal4 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.principal5 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
+.principal6 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+}
+
 .Footer {
   width: 100%;
   height: 400px;
@@ -393,5 +472,16 @@ h1 {
   height: 100px;
   width: 100px;
   border-radius: 20px;
+}
+
+.iconos {
+  border: solid black 2px;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.iconos a i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=estilo.css.map */

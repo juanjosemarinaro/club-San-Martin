@@ -1,0 +1,20 @@
+.navbar{
+    height: 100px;
+    
+}
+
+ul li a{
+    font-size:20px ;
+     transition: 1s;
+     color:black;
+     text-transform: uppercase;
+     margin: 5px;
+     
+}
+
+nav ul li a:hover{
+    transform: scale(1.1);
+ 
+    background-color:white;
+    border-radius: 5px;
+}

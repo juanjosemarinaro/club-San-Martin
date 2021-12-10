@@ -84,6 +84,22 @@
         background-position: center;
     }
 
+    .itemh{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        background-image: url(../multimedia/pelotapaleta.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .itemi{
+        grid-column:3/4 ;
+        grid-row:3/4 ;
+        background-image: url(../multimedia/boxeo.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
 
 
 

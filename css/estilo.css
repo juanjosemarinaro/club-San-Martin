@@ -52,22 +52,6 @@ h1 {
   width: 200px;
 }
 
-.navbar {
-  height: 100px;
-}
-
-ul li a {
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-a:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  background-color: white;
-  border-radius: 5px;
-}
-
 .Carrousel {
   width: 100%;
 }
@@ -108,6 +92,26 @@ a:hover {
 /* --------------------------------novedades------------------------------------------------------------------------------------------------------------------------------------ */
 /* --------------------------------------------------------------------------termina index---------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------historia----------------------------------------------------------------------------------- */
+.navbar {
+  height: 100px;
+}
+
+ul li a {
+  font-size: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: black;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+nav ul li a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: white;
+  border-radius: 5px;
+}
+
 .section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,6 +282,30 @@ a:hover {
   -ms-grid-row-span: 1;
   grid-row: 3/4;
   background-image: url(../multimedia/choiinstalaciones.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemh {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  background-image: url(../multimedia/pelotapaleta.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemi {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  background-image: url(../multimedia/boxeo.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -475,7 +503,6 @@ a:hover {
 }
 
 .iconos {
-  border: solid black 2px;
   font-size: 50px;
   margin: 50px;
 }

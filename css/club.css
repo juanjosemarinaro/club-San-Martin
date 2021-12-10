@@ -113,4 +113,28 @@
   background-size: cover;
   background-position: center;
 }
+
+.contenedorInstalaciones .itemh {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  background-image: url(../multimedia/pelotapaleta.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedorInstalaciones .itemi {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  background-image: url(../multimedia/boxeo.jpg);
+  background-size: cover;
+  background-position: center;
+}
 /*# sourceMappingURL=club.css.map */

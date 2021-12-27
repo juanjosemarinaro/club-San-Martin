@@ -1,3 +1,10 @@
+
+.logo{
+    height: 100px;
+    width: 200px;
+    
+}
+
 .navbar{
     height: 100px;
     
@@ -6,15 +13,18 @@
 ul li a{
     font-size:20px ;
      transition: 1s;
-     color:black;
+     color: #F5F3E8; /* Probar este color */
      text-transform: uppercase;
      margin: 5px;
      
 }
 
-nav ul li a:hover{
+ ul li a:hover{
     transform: scale(1.1);
- 
-    background-color:white;
+    
+    background-color:#F5E7E7;
     border-radius: 5px;
+}
+.navbar{
+    z-index: 1;
 }

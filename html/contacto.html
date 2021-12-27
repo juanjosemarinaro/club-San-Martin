@@ -17,54 +17,54 @@
 
 <body>
 
-    <header class="haciendoHeader">
+    <header >
 
-        <nav class="navbar navbar-expand-sm   ">
-
-            <a class="navbar-brand" href="#"><img class="logo" src="../multimedia/Logo.svg" alt=""></a>
-
-
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../html/historia.html">Historia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../html/club.html">Club</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../html/actividades.html">Actividades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../html/novedades.html">Novedades</a>
-                </li>
+        <div class="container-fluid">
+          
+            <nav class="navbar navbar-expand-md   ">
                 
-
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Actividades
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Natacion</a>
-                        <a class="dropdown-item" href="#">Musculacion</a>
-                        <a class="dropdown-item" href="#">Choi kwan do</a>
-                        <a class="dropdown-item" href="#">Fitnes</a>
-                        <a class="dropdown-item" href="#">Gimnasia acuatica</a>
-                        <a class="dropdown-item" href="#">Triatlon</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-
+              <a class="navbar-brand" href="#"><img class="logo" src="../multimedia/Logo.svg" alt=""></a>
+              <button class="navbar-toggler bg-white" data-target="#menu" data-toggle="collapse" type="button">
+  
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+                
+              
+                  <div class="collapse navbar-collapse" id="menu">
+  
+                      <ul class="navbar-nav mx-auto">
+                          <li class="nav-item active">
+                              <a href="../index.html" class="nav-link">Home</a>
+                          </li>
+                          <li class="nav-item active">
+                            <a href="../html/conocenos.html" class="nav-link">Conocenos</a>
+                        </li>
+                          <li class="nav-item active">
+                            <a href="../html/actividades.html" class="nav-link">Actividades</a>
+                        </li>
+                          <li class="nav-item active">
+                              <a href="../html/club.html" class="nav-link">Club</a>
+                          </li>
+                          <li class="nav-item active">
+                              <a href="../html/novedades.html" class="nav-link">Novedades</a>
+                          </li>
+                         
+                      </ul>
+  
+                  </div>
+            </nav>
+  
+        </div>
+         
+  
+  
+       
     </header>
 
     <h1>Contacto</h1>
-    <section class="ubicacionClub">
+    <section class="ubicacionClub ">
 
-        <p class="direccionClub"> San Martín Club se ubica en pleno centro comercial y político del Partido de General
+        <p class="direccionClub conteiner-fluid"> San Martín Club se ubica en pleno centro comercial y político del Partido de General
             San Martin, a solo
             50 m de la Plaza San Martin y de la Municipalidad. Numerosas líneas de colectivos tienes sus recorridos
             sobre las calles que lo circundan y por otras aledañas, teniendo de esta manera un fácil acceso desde
@@ -86,7 +86,7 @@
 
                 <div>
                     <div class=" mb -3 col-12 col-lg-6 mt-4">
-                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <label for="exampleFormControlInput1" class="form-label ">Nombre</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
                       </div>
                 </div>
@@ -115,20 +115,29 @@
 
 
     </main>
-    <footer class="text-center p-4 text-white">
+    <footer class="footer mt-10">
 
-        <h3> Redes sociales</h3>
+     
+        <div class="div__direccion">
+            <p>San Martin Club</p>
+            <p>
+                San Lorenzo 2167 (entre Mitre y Matheu)
+                (1650)</p>
+            <p> Tel: 4754-4092 4752-7722</p>
+            <p> Mail: sanmartinclub@gmail.com</p>
+        </div>
 
         <div class="iconos">
 
-            <a href="https://instagram.com/sanmartinclub?utm_medium=copy_link" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://instagram.com/sanmartinclub?utm_medium=copy_link" target="blank"><i
+                    class="fab fa-instagram"></i></a>
 
             <a href="https://www.facebook.com/SanMartinClub" target="blank"><i class="fab fa-facebook-square"></i></a>
-            
+
         </div>
+       
 
-
-     </footer>
+    </footer>
 
 
 

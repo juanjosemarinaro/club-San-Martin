@@ -23,56 +23,54 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg  ">
-                <button class="navbar-toggler" data-target="menu" data-toggle="collapse">   
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-md  ">
+
+                <a class="navbar-brand" href="#"><img class="logo" src="../multimedia/Logo.svg" alt=""></a>
+                <button class="navbar-toggler bg-white" data-target="#menu" data-toggle="collapse" type="button">
+
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            <a class="navbar-brand" href="#"><img class="logo" src="multimedia/Logo.svg" alt=""></a>
 
 
-            <ul class="navbar-nav mx-auto">
-               
-                <li class="nav-item">
-                    <a class="nav-link" href="html/historia.html">Historia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="html/club.html">Club</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="html/actividades.html">Actividades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="html/novedades.html">Novedades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="html/contacto.html">Contacto</a>
-                </li>
+                <div class="collapse navbar-collapse" id="menu">
 
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a href="html/conocenos.html" class="nav-link">Conocenos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="html/club.html" class="nav-link">Club</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="../html/actividades.html" class="nav-link">Actividades</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="html/novedades.html" class="nav-link">Novedades</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="html/contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                       
+                    </ul>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Actividades
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Natacion</a>
-                        <a class="dropdown-item" href="#">Musculacion</a>
-                        <a class="dropdown-item" href="#">Choi kwan do</a>
-                        <a class="dropdown-item" href="#">Fitnes</a>
-                        <a class="dropdown-item" href="#">Gimnasia acuatica</a>
-                        <a class="dropdown-item" href="#">Triatlon</a>
-                    </div>
-                </li>
-            </ul>
-        </nav> 
+                </div>
+            </nav>
+
+        </div>
 
 
 
     </header>
 
-     <div class="container mt-5">
-        <div class="Carrousel">
+    <div class="container mt-5">
 
-            <div id="demo" class="carousel slide" data-ride="carousel">
+        <h1>Bienvenidos al club San Martin</h1>
+
+        <div class="Carrousel ">
+
+            <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
 
 
                 <ul class="carousel-indicators">
@@ -87,6 +85,7 @@
 
                     <div class="carousel-item active">
                         <img src="multimedia/vestuariosinstalaciones.jpg" alt="imagenClub">
+                        
                     </div>
 
                     <div class="carousel-item">
@@ -94,7 +93,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="multimedia/salonfitnessinstalaciones.jpg" alt="imagenSalon">
+                        <img src="multimedia/Ciclismo indoor.jpg" alt="imagen">
                     </div>
 
                     <div class="carousel-item">
@@ -104,7 +103,7 @@
                 </div>
 
 
-                <a class="carousel-control-prev" href="#demo" data-slide="prev ">
+                <a class="carousel-control-prev" href="#demo"  data-slide="prev ">
                     <span class="carousel-control-prev-icon "></span>
                 </a>
                 <a class="carousel-control-next" href="#demo" data-slide="next">
@@ -115,80 +114,67 @@
         </div>
 
 
-    </div>  
+    </div>
 
-    <section class=" container ">
 
-        <h1 class="text-center ">Historia</h1>
-
-        <p class=" div__section--p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
-            deleniti
-            consequatur, ipsum ratione itaque officiis voluptatem. Corporis quod quibusdam vel consectetur soluta
-            voluptatem fuga sed? Provident, eveniet. Voluptate sapiente quibusdam veritatis eligendi laborum enim
-            tempore quo sequi beatae rem, asperiores soluta ea, deserunt exercitationem expedita provident
-            recusandae, eum deleniti. Possimus repudiandae veritatis enim in ipsa eius eaque pariatur perferendis
-            eum incidunt delectus deleniti odit non repellendus, ipsam modi aliquid similique consectetur? Ipsum
-            veniam doloribus, maiores repudiandae non commodi nisi assumenda nihil ab perferendis, sed neque
-            voluptatum ullam et obcaecati nam earum dolores odit labore tempore? Quis tempora dolorum qui facere.
-        </p>
-    </section>
-
-    <section class=" container-fluid ">
+    <section class=" container-fluid contenedor__padre ">
 
         <div class="row elContenedor contenedor">
 
             <div class="col-xs-12 col-sm-6 col-md-4 hola d-block contenedor__hijo">
 
                 <h2 class="text-center ">Club</h2>
-                <img src="multimedia/Club.jpg" alt="imagenClub"
-                    class="img-fluid contenedor__hijo--img  d-block mx-auto ">
-                <p class="text-center contenedor__hijo--p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                    nam odio laboriosam
-                    quia quo atque eaque omnis ducimus ipsa, unde quam voluptatum. Nobis provident dicta dolorum aliquam
-                    maxime aperiam eos.</p>
+               <a href="html/club.html"><img src="multimedia/Club.jpg" alt="imagenClub"
+                class="img-fluid contenedor__hijo--img  d-block mx-auto "></a> 
+                <p class="text-center contenedor__hijo--p">Nuestro club se encuentra ubicado en el partido de General San Martin, siendo uno de los mas antiguos y prestigiosos. Contamos con amplias instalaciones y profesionales reconocidos en el ambito. Veni a conocerlo.</p>
 
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 contenedor__hijo ">
 
                 <h2 class="text-center">Actividades</h2>
-                <img src="multimedia/actividades.jpg" alt="imagenActividades pt-5"
-                    class="img-fluid  contenedor__hijo--img d-block mx-auto ">
-                <p class="text-center contenedor__hijo--p ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    sint, ea atque
-                    nostrum, facere sit blanditiis dicta debitis aliquid aspernatur consequuntur illo! Ratione deserunt,
-                    eum quos quae illum blanditiis placeat!</p>
+               <a href="html/actividades.html"><img src="multimedia/actividades.jpg" alt="imagenActividades pt-5"
+                class="img-fluid  contenedor__hijo--img d-block mx-auto "></a> 
+                <p class="text-center contenedor__hijo--p ">Tenemos a tu disposición una amplia variedad de actividades y horarios. Así podrás elegir segun tu comodidad. Contamos con  Natatorio, Gimnasio, Cancha de pelota a paleta, salones de fitness y ciclismo.</p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 contenedor__hijo  ">
 
                 <h2 class="text-center">Novedades</h2>
-                <img src="multimedia/Novedades.jpg" alt="imagenNovedades"
-                    class=" img-fluid  contenedor__hijo--img  d-block mx-auto ">
-                <p class="text-center contenedor__hijo--p ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Possimus illum
-                    consectetur tempore ad, aliquam voluptatibus! Dolore minima nisi iure. Quidem aliquid dolorem
-                    obcaecati odit voluptatibus, libero ipsa. Incidunt, labore, illum!</p>
+                <a href="html/novedades.html"><img src="multimedia/Novedades.jpg" alt="imagenNovedades"
+                    class=" img-fluid  contenedor__hijo--img  d-block mx-auto "></a>
+                <p class="text-center contenedor__hijo--p ">Te encontraras con todas las novedades y eventos, toda la información necesaria para una correcta comunicación con los socios.</p>
             </div>
 
         </div>
 
     </section>
 
-    <footer class="text-center p-4 text-white">
+    <h3 class="text-center"> Redes sociales</h3>
 
-        <h3> Redes sociales</h3>
+    <footer class="footer">
+
+
+        <div class="div__direccion">
+            <p>San Martin Club</p>
+            <p>
+                San Lorenzo 2167 (entre Mitre y Matheu)
+                (1650)</p>
+            <p> Tel: 4754-4092 4752-7722</p>
+            <p> Mail: sanmartinclub@gmail.com</p>
+        </div>
 
         <div class="iconos">
 
-            <a href="https://instagram.com/sanmartinclub?utm_medium=copy_link" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://instagram.com/sanmartinclub?utm_medium=copy_link" target="blank"><i
+                    class="fab fa-instagram"></i></a>
 
             <a href="https://www.facebook.com/SanMartinClub" target="blank"><i class="fab fa-facebook-square"></i></a>
-            
+
         </div>
 
 
-     </footer>
+    </footer>
 
 
 
